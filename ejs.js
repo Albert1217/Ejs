@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // 3 Views code
 app.set("views", "views");
-app.set("views engine", "ejs");
+app.set("view engine", "ejs");
 
 // 4 Routing code
 app.set("/create-item", (req, res) => {
