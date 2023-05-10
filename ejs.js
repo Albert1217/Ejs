@@ -28,8 +28,8 @@ app.set("view engine", "ejs");
 // 4 Routing code
 app.post("/create-item", (req, res) => {
   //TODO: code with db here
-  //   console.log(req);
-  //   res.json({ tes: "success" });
+  console.log(req.body);
+  res.json({ tes: "success" });
 });
 
 app.get("/author", (req, res) => {
